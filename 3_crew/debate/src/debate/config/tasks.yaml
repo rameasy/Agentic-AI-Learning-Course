@@ -17,10 +17,19 @@ oppose:
     Your clear argument against the motion, in a concise manner.
   agent: debater
   output_file: output/oppose.md
+  
 decide:
   description: >
     Review the arguments presented by the debaters and decide which side is more convincing.
   expected_output: >
-    Your decision on which side is more convincing, and why.
+    Your decision on comments given by the audience.
   agent: judge
   output_file: output/decide.md
+
+observer:
+  description: >
+      Review the arguments presented by the debaters and decide which side is more convincing.
+  expected_output: >
+      Your decision on which side is more convincing, and why.
+  agent: audience
+  output_file: output/observer.md

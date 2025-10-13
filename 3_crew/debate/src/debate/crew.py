@@ -24,6 +24,7 @@ class Debate():
             verbose=True
         )
 
+
     @task
     def propose(self) -> Task:
         return Task(
@@ -42,6 +43,18 @@ class Debate():
             config=self.tasks_config['decide'],
         )
 
+    @task
+    def observer(self) -> Task:
+        return Task(
+            config=self.tasks_config['observer'],
+        )
+
+    @agent
+    def audience(self) -> Agent:
+        return Agent(
+            config=self.agents_config['audience'],
+            verbose=True
+        )
 
     @crew
     def crew(self) -> Crew:
