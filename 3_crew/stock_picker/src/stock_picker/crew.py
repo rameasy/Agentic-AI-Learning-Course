@@ -72,9 +72,6 @@ class StockPicker():
             config=self.tasks_config['pick_best_company'],
         )
     
-
-
-
     @crew
     def crew(self) -> Crew:
         """Creates the StockPicker crew"""
