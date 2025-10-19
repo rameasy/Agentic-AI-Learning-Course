@@ -1,28 +1,17 @@
-Flight Deals from JFK to LHR - June 2025:
+# Flight Deals from LHR to MAA - July 2026
 
-1. Airline: Virgin Atlantic
-   - Price: $497
-   - Non-stop
-   - In-flight amenities: meals, drinks, entertainment, WiFi
+## 1. Air India
+- **Price**: $302 (one-way)
+- **Link**: [Air India Deals](https://www.airindia.com)
 
-2. Airline: JetBlue
-   - Price: $314
-   - Non-stop
-   - Booking available now
+## 2. Gulf Air
+- **Price**: Starting at $435 (one-stop)
+- **Link**: [Gulf Air Deals](https://www.gulfair.com)
 
-3. Airline: Delta
-   - Price: $239
-   - Non-stop
-   - Additional services: earns airline miles
+## 3. Emirates
+- **Price**: Starting at $751 (non-stop)
+- **Link**: [Emirates Deals](https://www.emirates.com)
 
-4. Airline: SWISS
-   - Price: $402
-   - Non-stop
-   - Comfortable seating and great service
-
-5. Airline: United Airlines
-   - Price: $450
-   - Non-stop
-   - Great onboard experience
-
-Best Deal: JetBlue at $314 for a non-stop flight from JFK to LHR. 
+## 4. British Airways
+- **Price**: Starting at £501 (non-stop)
+- **Link**: [British Airways Deals](https://www.britishairways.com)
