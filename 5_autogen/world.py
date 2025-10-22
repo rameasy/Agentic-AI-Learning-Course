@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from autogen_ext.runtimes.grpc import GrpcWorkerAgentRuntimeHost
 from agent import Agent
 from creator import Creator
@@ -6,7 +10,7 @@ from autogen_core import AgentId
 import messages
 import asyncio
 
-HOW_MANY_AGENTS = 20
+HOW_MANY_AGENTS = 5
 
 async def create_and_message(worker, creator_id, i: int):
     try:
