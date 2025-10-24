@@ -32,7 +32,7 @@ class Account(BaseModel):
     holdings: dict[str, int]
     transactions: list[Transaction]
     portfolio_value_time_series: list[tuple[str, float]]
-
+    date: datetime
     @classmethod
     def get(cls, name: str):
         fields = read_account(name.lower())

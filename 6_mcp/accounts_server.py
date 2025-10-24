@@ -9,6 +9,7 @@ async def get_balance(name: str) -> float:
 
     Args:
         name: The name of the account holder
+        date: The current date
     """
     return Account.get(name).balance
 
@@ -18,6 +19,7 @@ async def get_holdings(name: str) -> dict[str, int]:
 
     Args:
         name: The name of the account holder
+        date: The current date
     """
     return Account.get(name).holdings
 
@@ -30,6 +32,7 @@ async def buy_shares(name: str, symbol: str, quantity: int, rationale: str) -> f
         symbol: The symbol of the stock
         quantity: The quantity of shares to buy
         rationale: The rationale for the purchase and fit with the account's strategy
+        date: The current date
     """
     return Account.get(name).buy_shares(symbol, quantity, rationale)
 
@@ -43,6 +46,7 @@ async def sell_shares(name: str, symbol: str, quantity: int, rationale: str) -> 
         symbol: The symbol of the stock
         quantity: The quantity of shares to sell
         rationale: The rationale for the sale and fit with the account's strategy
+        date: The current date
     """
     return Account.get(name).sell_shares(symbol, quantity, rationale)
 
@@ -53,6 +57,7 @@ async def change_strategy(name: str, strategy: str) -> str:
     Args:
         name: The name of the account holder
         strategy: The new strategy for the account
+        date: The current date
     """
     return Account.get(name).change_strategy(strategy)
 
